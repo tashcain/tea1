@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import {Link} from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -26,7 +27,7 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/home">Home</NavLink>
+              <NavLink href="/">Home</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>

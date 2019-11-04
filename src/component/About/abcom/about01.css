@@ -10,6 +10,7 @@
     }
     .about_quote h4{
         font-size: 34px;
+        color: white;
     }
 
     .about01{
@@ -32,11 +33,13 @@
         border-radius: 17px;
         color: white;
         font-size: 30px;
-        padding: 5%;
+        padding: 9%;
+        margin-top: 5%;
     
     }
     .about_quote h4{
         font-size: 23px;
+        color: white;
     }
     
     

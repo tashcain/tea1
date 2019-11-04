@@ -12,11 +12,11 @@ export default class Products extends Component {
                 <div className="precont">
                 <div class="container">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm justify-content-center">
                 <Card
                             hoverable
                             style={{ width: 240 }}
-                            cover={<img alt="example" src={Img01} />}
+                            cover={<img className="cardsize" alt="example" src={Img01} />}
                         >
                             <Meta title="Europe Street beat" description="www.instagram.com" />
                             <Button type="primary" onClick={this.clickHandler}>click here</Button>
@@ -33,7 +33,7 @@ export default class Products extends Component {
                         </Card>
                 </div>
                 <div class="col-sm">
-                <Card
+                <Card 
                             hoverable
                             style={{ width: 240 }}
                             cover={<img alt="example" src={Img01} />}
