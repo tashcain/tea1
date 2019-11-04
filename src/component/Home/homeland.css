@@ -1,0 +1,18 @@
+.firstland{
+    background: url('../../images/teabg4.jpg');
+    background-size: cover;
+    width: 1700px;
+    height: 590px;
+}
+
+.carr {
+    height: 639px;
+    padding-top: 200px;
+    background: pink;
+}
+
+.landcard{
+    height: 639px;
+    padding-top: 200px;
+    background: lightgreen;
+}

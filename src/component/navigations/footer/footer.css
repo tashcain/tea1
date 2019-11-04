@@ -1,0 +1,11 @@
+.footer{
+    background: url('../../../images/teabg4.jpg');
+    color: white;
+    height: 400px;
+    padding-top: 135px;
+    text-align: left;
+}
+
+.aboutcont{
+    width: 357px !important;
+}
