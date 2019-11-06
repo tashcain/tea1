@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Img01 from '../../../images/carimg2.JPG';
 import { Card, Button } from 'antd';
 import './products.css';
+import {Link} from 'react-router-dom';
 
 const { Meta } = Card;
 
@@ -38,8 +39,9 @@ export default class Products extends Component {
                             style={{ width: 240 }}
                             cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img01} />}
                         >
-                            <Meta title="Europe Street beat" description="www.instagram.com" />
-                            <Button type="primary" onClick={this.clickHandler}>click here</Button>
+                            <Meta title="Tulsi Green Tea"  />
+                            <Link to="/prod/01"><Button type="primary" onClick={this.clickHandler}>click here</Button></Link> 
+                           <br/> <Link to="/buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link> 
                         </Card>
                 </div>
                 <div class="col-sm">
@@ -48,8 +50,9 @@ export default class Products extends Component {
                             style={{ width: 240 }}
                             cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img01} />}
                         >
-                            <Meta title="Tulsi Green Tea" description="click to read its benifits" />
-                            <Button type="primary" onClick={this.clickHandler}>click here</Button>
+                            <Meta title="Blue Tea" description="" />
+                            <Link to="/prod/02"><Button type="primary" onClick={this.clickHandler}>click here</Button></Link>
+                          <br/><Link to="/buyprod/02"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
                         </Card>
                 </div>
                 <div class="col-sm">
@@ -58,8 +61,9 @@ export default class Products extends Component {
                             style={{ width: 240 }}
                             cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img01} />}
                         >
-                            <Meta title="Europe Street beat" description="www.instagram.com" />
-                            <Button type="primary" onClick={this.clickHandler}>click here</Button>
+                            <Meta title="Black Tea" description="" />
+                            <Link to="/prod/03"><Button type="primary" onClick={this.clickHandler}>click here</Button></Link>
+                           <br/><Link to="/buyprod/03"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
                         </Card>
                 </div>
                 <div class="col-sm ">
@@ -68,8 +72,9 @@ export default class Products extends Component {
                             style={{ width: 240 }}
                             cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img01} />}
                         >
-                            <Meta title="Europe Street beat" description="www.instagram.com" />
-                            <Button type="primary" onClick={this.clickHandler}>click here</Button>
+                            <Meta title="Green Tea" description="" />
+                            <Link to="/prod/04"><Button type="primary" onClick={this.clickHandler}>click here</Button></Link>
+                            <br/><Link to="buyprod/04"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
                         </Card>
                 </div>
             </div>

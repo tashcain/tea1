@@ -36,11 +36,11 @@ const Example = (props) => {
               <DropdownMenu right>
                <Link to="/products">
                <DropdownItem>
-                  Option 1
+                  Products Details
                 </DropdownItem>
                </Link> 
                 <DropdownItem>
-                  Option 2
+                  Shop Cart
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
