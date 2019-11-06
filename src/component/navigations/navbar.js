@@ -27,16 +27,18 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <Link to="/"><NavLink >Home</NavLink></Link>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Products
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+               <Link to="/products">
+               <DropdownItem>
                   Option 1
                 </DropdownItem>
+               </Link> 
                 <DropdownItem>
                   Option 2
                 </DropdownItem>
@@ -47,7 +49,7 @@ const Example = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/aboutus">About Us</NavLink>
+              <Link to="/aboutus"><NavLink >About Us</NavLink></Link>
             </NavItem>
           </Nav>
         </Collapse>
